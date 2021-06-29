@@ -1,0 +1,31 @@
+h1{
+    color:white;
+    text-align: center;
+}
+
+
+/*a{
+    margin-left: 0.5cm;
+}
+p{
+    margin-left: 0.5cm;
+    size: 10px;
+}
+img{
+    margin-left: 0.5cm;
+}*/
+
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+}
+.body .item p{ position:absolute; top:50%; left:50%; transform:translate(-50%,-50%) ; opacity:0; }
+
+
